@@ -1,0 +1,617 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}  
+a{
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+/*** Navigation bar Starts Here ***/
+
+
+/*** Navigation Bar Ends Here ***/
+
+
+/*** index page starts here ***/
+/* hero section starts here */
+#hero{
+    background: url(../img/hero-img.jpeg);
+    height: 850px;
+}
+.hero-text-container{
+    padding-top: 400px;
+    margin-left: 30px;
+}
+.hero-h1{
+    font-size: 1.2cm;
+    color: gold;
+    padding-bottom: 30px;
+}
+.hero-p{
+    color: gold;
+}
+.hero-btn-container{
+    padding-top: 50px;
+}
+.hero-btn{
+    border: 2px solid gold;
+    color: gold;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 15px;
+}
+.hero-btn:hover{
+    background-color: gold;
+    color: #000;
+    transition: 0.7s;
+}
+@media (max-width: 900px) {
+  #hero{
+    text-align: center;
+  }
+  .hero-text-container{
+    padding-top: 200px;
+  }
+}
+
+/* hero section ends here */
+
+/* icon section starts here */
+.icon-box-container{
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 15px;
+}
+.icon-h3{
+  color: #000;
+  font-weight: bolder;
+}
+@media (max-width: 900px){
+  .icon-box-container{
+    text-align: center;
+  }
+  .icon-h3{
+    text-align: center;
+  }
+}
+/* icon secton ends here */
+
+/* info section starts here */
+#info{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.info-container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.info-main-position-container{
+  text-align: center;
+    padding-top: 0;
+    padding-bottom: 300px;
+}
+.info-main-h2{
+  font-size: 1cm;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.info-main-p{
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.info-box-container{
+    border-top: 2px solid gold;
+    text-align: center;
+}
+.info-text-container{
+  text-align: left;
+}
+.info-h2{
+  padding: 20px 0 30px 0;
+  text-align: left;
+}
+.info-p{
+  text-align: left;
+  padding: 0 0 20px 0;
+}
+.info-btn-container{
+    padding: 20px;
+    text-align: left;
+}
+.info-btn{
+    border: 1px solid gold;
+    color: #000;
+    padding: 15px;
+}
+.info-btn:hover{
+  background-color: gold;
+  color: #000;
+  transition: 0.6s;
+}
+@media (max-width: 900px) {
+  .info-box-container{
+    padding-top: 100px;
+  }
+  .info-p{
+    padding: 40px 40px;
+  }
+}
+/* info section ends here */
+
+/* collections section starts here */
+.collection-box-container{
+  border: 1px solid #000;
+  border-radius: 40px;
+  height: 700px;
+  text-align: center;
+}
+.collection-img-container{
+  padding-top: 50px;
+}
+.collection-img{
+  height: 200px;
+  width: 300px;
+}
+.collection-btn-container{
+  padding-top: 100px;
+}
+.collection-btn{
+  border: 2px solid gold;
+  color: #000;
+  padding: 15px;
+}
+.collection-btn:hover{
+  background-color: gold;
+  color: #000;
+  transition: 0.6s;
+}
+/* collections section ends here */
+
+/* sales section starst here */
+#sales{
+  height: 800px;
+}
+.sales-container{
+  padding-top: 200px;
+}
+.sales-h3{
+  font-size: 0.9cm;
+  margin-left: 20px;
+  color: #fff;
+  padding-top: 70px;
+}
+.sales-h2{
+  font-size: 2.5cm;
+  padding: 100px;
+  text-align: center;
+}
+.sales-right-h3{
+  font-size: 0.9cm;
+  margin-right: 20px;
+  color: #fff;
+  padding-top: 70px;
+}
+.sales-p{
+  padding: 10px;
+  color: #fff;
+  font-size: 0.6cm;
+}
+.sales-btn-container{
+  position: relative;
+  padding: 30px;
+  padding-top: 40px;
+}
+.sales-btn{
+  border: 5px solid yellow;
+  background-color:transparent;
+  color: yellow;
+  border-radius: 40px;
+  font-weight: 800;
+  padding: 20px;
+}
+.sales-btn:hover{
+  background-color: yellow;
+  color: #000;
+  transition: 0.7s;
+}
+
+
+.browse-container{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),#00000080), url(../img/gear-banner.jpeg);
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  text-align: left;
+  height: 260px;
+}
+.browse-right-container{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),#00000080), url(../img/furniture.jpeg);
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  height: 260px;
+  text-align: right;
+}
+/* sales section ends here */
+
+
+/* product section starts here */
+.product-hero-container{
+  background-color: #000;
+  color: gold;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.product-text-container{
+  text-align: center;
+}
+.product-hero-h1{
+  font-size: 2cm;
+  padding-bottom: 10px;
+}
+.product-img-container{
+  text-align: center;
+}
+.product-img{
+  width: 80%;
+  height: 300px;
+}
+.product-h5{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.product-btn-container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.product-btn{
+  border: 2px solid #000;
+  border-radius: 40px;
+  color: #000;
+  padding: 15px;
+}
+.product-btn:hover{
+  background-color: #000;
+  color: #fff;
+  transition: 0.6s;
+}
+/* product section ends here */
+
+/* newsletter section starts here */
+#newsletter{
+    background-color: #000;
+    height: 600px;
+}
+.newsletter-box-container{
+    padding-top: 15px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+.newsletter-input{
+    padding: 15px;
+    width: 70%;
+}
+.newsletter-btn{
+    background-color: gold;
+    border: 2px solid gold;
+    color: #000;
+    padding: 15px;
+}
+.newsletter-text-container{
+    color: #fff;
+    font-size: 1cm;
+    font-weight: 200;
+    margin: 0 200px 0 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.newsletter-h4{
+    color: #fff;
+    letter-spacing: 10px;
+}
+.newsletter-p{
+    color: #fff;
+    margin-left: 200px;
+    margin-right: 300px;
+    padding: 50px 50px;
+}
+/* newsletter section ends here */
+/*** index page ends here ***/
+
+
+
+/*** cart page starts here ***/
+.cart-main-h1{
+  margin-left: 30px;
+  font-size: 2.5cm;
+}
+.cart-box-container{
+  border: 1px solid #000;
+  border-radius: 30px;
+  height: 400px;
+}
+.cart-img-container{
+  padding-top: 30px;
+  text-align: center;
+}
+.cart-img{
+  border: 1px solid #000;
+  height: 300px;
+}
+.cart-btn-container{
+  padding-top: 150px;
+  text-align: center;
+}
+.cart-btn{
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 40px;
+  cursor: pointer;
+  color: #fff;
+  width: 200px;
+  padding: 15px;
+}
+.cart-btn:hover{
+  background-color: lightcoral;
+  transition: 0.6s;
+}
+
+/*** cart page ends here ***/
+
+
+/*** Review Page Starts Here ***/
+.review-hero-container{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 1)), url(../img/review-bg.jpeg);
+  background-size: cover;
+  color: #fff;
+  height: 500px;
+}
+.review-hero-text-container{
+  padding-top: 200px;
+  text-align: center;
+}
+.review-hero-h1{
+  font-size: 1.2cm;
+  padding-bottom: 20px;
+}
+.review-box-container{
+  border: 1px solid #000;
+  border-radius: 30px;
+}
+.review-star-container{
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.review-img-container{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.review-text-container{
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+.review-h1{
+  padding-bottom: 10px;
+}
+.review-img{
+  border: 2px solid #000;
+  border-radius: 200px;
+  height: 90px;
+}
+.star{
+  color: gold;
+}
+
+/*** Review Page Ends Here ***/
+
+
+
+
+/*** Columns CSS starts here ***/
+/* 2 column starts here */
+.column-2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column-2 {
+      width: 100%;
+    }
+  }
+/* 2 column ends here */
+
+/* 3 column starts here */
+.column-3 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column-3 {
+      width: 100%;
+    }
+  }
+/* 3 column ends here */
+
+/* 4 column starts here */
+.column-4 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column-4 {
+      width: 100%;
+    }
+  }
+/* 4 column ends here */
+/*** Columns CSS ends here ***/
+
+
+
+/*** footer css starts here ***/
+#footer{
+  padding-top: 000px;
+}
+footer{
+  width: 100%;
+  position: static;
+  bottom: 0;
+  left: 0;
+  background: #000;
+}
+footer .content{
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .content p,a{
+  color: #fff;
+}
+footer .content .box{
+  width: 33%;
+  transition: all 0.4s ease;
+}
+footer .content .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+
+}
+footer .content p{
+  text-align: justify;
+}
+footer .content .lower .topic{
+  margin: 24px 0 5px 0;
+}
+footer .content .lower i{
+  padding-right: 16px;
+}
+footer .content .middle{
+  padding-left: 80px;
+}
+footer .content .middle a{
+  line-height: 32px;
+}
+footer .content .right input[type="text"]{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: #d9d9d9;
+  background: #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+footer .content .right input[type="submit"]{
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: #d9d9d9;
+  background: gold;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid gold;
+  transition: all 0.3s ease-in-out;
+}
+.content .right input[type="submit"]:hover{
+  background: none;
+  color:  gold;
+}
+footer .content .media-icons a{
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+.content .media-icons a:hover{
+  border-color: gold;
+}
+footer .bottom{
+  width: 100%;
+  text-align: right;
+  color: #d9d9d9;
+  padding: 0 40px 5px 0;
+}
+footer .bottom a{
+  color: gold;
+}
+footer a{
+  transition: all 0.3s ease;
+}
+footer a:hover{
+  color: gold;
+}
+@media (max-width:900px) {
+  footer .content .middle{
+    padding-left: 50px;
+  }
+}
+@media (max-width:900px){
+  footer .content .box{
+    width: 50%;
+  }
+  .content .right{
+    margin-top: 40px;
+  }
+}
+@media (max-width:560px){
+  footer{
+    position: relative;
+  }
+  footer .content .box{
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle{
+    padding-left: 0;
+  }
+}
+/*** footer css ends here ***/
